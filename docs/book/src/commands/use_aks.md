@@ -19,6 +19,10 @@ entry ID or alias.  When the user reconnects using a connection history entry,
 kconnect regenerates the kubectl configuration context and refreshes their access
 token.
 
+* Note: kconnect use aks requires kubelogin and azure cli.
+  [kubelogin](https://github.com/Azure/kubelogin)
+  [azure-cli](https://github.com/Azure/azure-cli)
+
 
 ```bash
 kconnect use aks [flags]
@@ -56,12 +60,13 @@ kconnect use aks [flags]
       --history-location string    Location of where the history is stored. (default "$HOME/.kconnect/history.yaml")
       --idp-protocol string        The idp protocol to use (e.g. saml, aad). See flags additional flags for the protocol.
   -k, --kubeconfig string          Location of the kubeconfig to use. (default "$HOME/.kube/config")
-      --login-type string          The login method to use when connecting to the AKS cluster as a non-admin. Possible values: devicecode,spn,ropc,msi,token (default "devicecode")
+      --login-type string          The login method to use when connecting to the AKS cluster as a non-admin. Possible values: devicecode,spn,ropc,msi,azurecli (default "devicecode")
       --max-history int            Sets the maximum number of history items to keep (default 100)
   -n, --namespace string           Sets namespace for context in kubeconfig
       --no-history                 If set to true then no history entry will be written
       --password string            The password to use for authentication
   -r, --resource-group string      The Azure resource group to use
+      --server-fqdn-type string    Connect to AKS cluster via Public/Private FQDN (default "public")
       --set-current                Sets the current context in the kubeconfig to the selected cluster (default true)
       --subscription-id string     The Azure subscription to use (specified by ID)
       --subscription-name string   The Azure subscription to use (specified by name)
