@@ -1074,8 +1074,8 @@ k8s.io/apimachinery v0.27.1/go.mod h1:5ikh59fK3AJ287GUvpUsryoMFtH9zj/ARfWCo3AyXT
 k8s.io/apiserver v0.27.1/go.mod h1:UGrOjLY2KsieA9Fw6lLiTObxTb8Z1xEba4uqSuMY0WU=
 k8s.io/client-go v0.27.1/go.mod h1:f8LHMUkVb3b9N8bWturc+EDtVVVwZ7ueTVquFAJb2vA=
 k8s.io/code-generator v0.27.1/go.mod h1:iWtpm0ZMG6Gc4daWfITDSIu+WFhFJArYDhj242zcbnY=
-k8s.io/code-generator v0.27.2 h1:RmK0CnU5qRaK6WRtSyWNODmfTZNoJbrizpVcsgbtrvI=
-k8s.io/code-generator v0.27.2/go.mod h1:DPung1sI5vBgn4AGKtlPRQAyagj/ir/4jI55ipZHVww=
+k8s.io/code-generator v0.27.4 h1:bw2xFEBnthhCSC7Bt6FFHhPTfWX21IJ30GXxOzywsFE=
+k8s.io/code-generator v0.27.4/go.mod h1:DPung1sI5vBgn4AGKtlPRQAyagj/ir/4jI55ipZHVww=
 k8s.io/component-base v0.27.1/go.mod h1:UGEd8+gxE4YWoigz5/lb3af3Q24w98pDseXcXZjw+E0=
 k8s.io/gengo v0.0.0-20210813121822-485abfe95c7c/go.mod h1:FiNAH4ZV3gBg2Kwh89tzAEV2be7d5xI0vBa/VySYy3E=
 k8s.io/gengo v0.0.0-20220902162205-c0856e24416d h1:U9tB195lKdzwqicbJvyJeOXV7Klv+wNAWENRnXEGi08=
@@ -1096,8 +1096,8 @@ rsc.io/binaryregexp v0.2.0/go.mod h1:qTv7/COck+e2FymRvadv62gMdZztPaShugOCi3I+8D8
 rsc.io/quote/v3 v3.1.0/go.mod h1:yEA65RcK8LyAZtP9Kv3t0HmxON59tX3rD+tICJqUlj0=
 rsc.io/sampler v1.3.0/go.mod h1:T1hPZKmBbMNahiBKFy5HrXp6adAjACjK9JXDnKaTXpA=
 sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.1.1/go.mod h1:/4NLd21PQY0B+H+X0aDZdwUiVXYJQl/2NXA5KVtDiP4=
-sigs.k8s.io/controller-tools v0.12.0 h1:TY6CGE6+6hzO7hhJFte65ud3cFmmZW947jajXkuDfBw=
-sigs.k8s.io/controller-tools v0.12.0/go.mod h1:rXlpTfFHZMpZA8aGq9ejArgZiieHd+fkk/fTatY8A2M=
+sigs.k8s.io/controller-tools v0.12.1 h1:GyQqxzH5wksa4n3YDIJdJJOopztR5VDM+7qsyg5yE4U=
+sigs.k8s.io/controller-tools v0.12.1/go.mod h1:rXlpTfFHZMpZA8aGq9ejArgZiieHd+fkk/fTatY8A2M=
 sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd h1:EDPBXCAspyGV4jQlpZSudPeMmr1bNJefnuqLsRAsHZo=
 sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd/go.mod h1:B8JuhiUyNFVKdsE8h686QcCxMaH6HrOAZj4vswFpcB0=
 sigs.k8s.io/structured-merge-diff/v4 v4.2.3 h1:PRbqxJClWWYMNV1dhaG4NsibJbArud9kFxnAMREiWFE=
